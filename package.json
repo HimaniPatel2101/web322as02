@@ -1,0 +1,16 @@
+{
+  "name": "himani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Himani",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.5.0",
+    "express": "^4.17.1"
+  }
+}
