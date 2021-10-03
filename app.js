@@ -53,6 +53,6 @@ app.get('/login', (req, res) => {
   res.sendFile(path.join( __dirname,'/views/login.html'));
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
